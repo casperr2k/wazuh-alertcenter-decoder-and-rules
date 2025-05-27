@@ -1,0 +1,39 @@
+<group name="AlertCenter.rules,">
+
+<rule id="102281" level="12">
+    <field name="AlertID">367</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+  <rule id="102282" level="12">
+    <field name="AlertID">397</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+  <rule id="102283" level="12">
+    <field name="AlertID">363</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+  <rule id="102284" level="12">
+    <field name="AlertID">374</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+  <rule id="102285" level="12">
+    <field name="AlertID">397</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+  <rule id="102286" level="13">
+    <field name="AlertID">2009</field>
+    <decoded_as>AlertCenter</decoded_as>
+    <description>$(AlertName) на $(InterceptPCName), ID инцидента в DLP: $(IncidentID)</description>
+  </rule>
+
+</group>

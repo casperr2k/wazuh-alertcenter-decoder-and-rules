@@ -1,0 +1,113 @@
+<!-- AlertCenter Custom Decoders -->
+
+<decoder name="AlertCenter">
+  <prematch>AlertCenter.Incidents</prematch>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>IncidentID="(\d+)"</regex>
+  <order>IncidentID</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>AlertTime="(\.*)"</regex>
+  <order>AlertTime</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>AlertID="(\d+)"</regex>
+  <order>AlertID</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>DocumentName="(\.*)"</regex>
+  <order>DocumentName</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>DocumentExt="(\.*)"</regex>
+  <order>DocumentExt</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>DocumentID="(\.*:\.*;\d+)"</regex>
+  <order>DocumentName</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>InterceptIP="(\d+.\d+.\d+.\d+)"</regex>
+  <order>InterceptIP</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>InterceptTime="(\.*)"</regex>
+  <order>InterceptTime</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>InterceptPCName="(\.*).\.*.\.*"</regex>
+  <order>InterceptPCName</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>DocumentSize="(\d+)"</regex>
+  <order>DocumentSize</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>InterceptUser="(\.*)@\.*"</regex>
+  <order>InterceptUser</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>to_addr="(\.*)"</regex>
+  <order>to_addr</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>AlertName="(\.*)"</regex>
+  <order>AlertName</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>DocUniversalID="(\.*)"</regex>
+  <order>DocUniversalID</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>AlertGroupID="(\d+)"</regex>
+  <order>AlertGroupID</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>Metadata="(\.*)"</regex>
+  <order>Metadata</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>email ":"(\.*)"," password ":"(\.*)"</regex>
+  <order>SearchSummaryEmail, SearchSummaryPassword</order>
+</decoder>
+
+<decoder name="AlertCenter-Decode">
+  <parent>AlertCenter</parent>
+  <regex>msUserName=(\.*@\.*.\S+)</regex>
+  <order>msUserName</order>
+</decoder>
