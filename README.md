@@ -2,8 +2,6 @@
 
 <h2><i>Integration with russian DLP system SearchInform for Wazuh</i></h2>
 
-<h3>Decoder is pretty much ready, ruleset TBD.</h3>
-
 <h4><i>Installation:</i></h4>
 
 1. <code>sudo cp 0228-alertcenter-decoders.xml /var/ossec/ruleset/decoders/</code>
